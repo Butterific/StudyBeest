@@ -1,3 +1,4 @@
+/* main css code*/
 body {
     margin: 0;
     padding: 0;
@@ -5,4 +6,25 @@ body {
     position: relative;
     margin: 0;
     padding: 0;
+}
+/* center box where the timer is displayed */
+.center-box {
+    position: absolute;
+    width: 80vh;
+    height: 50vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.15);
+    /* some box formating code to give it a glassy effect */
+    backdrop-filter: blur(12px) saturate(180%) brightness(110%);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 15;
+    color: white;
+    font-family: Knewave, sans-serif;
+    font-size: 19px;
+    /* some box formating code to give it a glassy effect part 2*/
+    -webkit-backdrop-filter: blur(12px) saturate(180%) brightness(110%);
+    /* WIP: update these values as needed later so that it fills more of the screen */
 }
